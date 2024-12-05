@@ -15,14 +15,12 @@ public class EmployeeService {
 
 
     public List<EmployeeDto> createRandomList(int size) {
-        List<EmployeeDto> employeeDtoList = EmployeeUtil.getEmployeeDtoList(size);
-        return employeeDtoList;
+        return EmployeeUtil.getEmployeeDtoList(size);
     }
 
 
     public List<EmployeeDto> findList() {
-        List<EmployeeDto> employeeDtoList = EmployeeUtil.getEmployeeDtoList(20);
-        return employeeDtoList;
+        return EmployeeUtil.getEmployeeDtoList(20);
     }
 
 
@@ -42,8 +40,7 @@ public class EmployeeService {
     }
 
 
-    public String delete(String id) {
-        return id;
+    public void delete(Long id) {
     }
 
 }
