@@ -9,12 +9,12 @@
         <relativePath/>
     </parent>
     <groupId>org.demo.app</groupId>
-    <artifactId>dummy-service</artifactId>
+    <artifactId>jenkins-dummy-service</artifactId>
     <version>1.0.0</version>
-    <name>dummy-service</name>
-    <description>dummy-service</description>
+    <name>jenkins-dummy-service</name>
+    <description>jenkins-dummy-service</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <lombok.version>1.18.24</lombok.version>
         <mapstruct.version>1.5.3.Final</mapstruct.version>
         <mapstruct-lombok.version>0.2.0</mapstruct-lombok.version>
